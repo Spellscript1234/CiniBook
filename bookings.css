@@ -1,0 +1,155 @@
+body{
+  background-color: black;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.navbar{
+  display:flex;
+  padding:5px;
+  font-size: 50px;
+  color:white;
+  height:80px;
+  justify-content: space-between;
+  margin-top:0pxs;
+  border-bottom: 2px solid DimGrey;
+
+}
+
+.navbar-right ul{
+  display: flex;
+  color: white;
+  gap:30px;
+  list-style-type: none;
+ overflow: hidden;
+  margin:0px;
+  text-decoration: none;
+  justify-content:right;
+}
+
+.navbar-right a{
+  color:white;
+  text-decoration: none;
+}
+
+.navbar-right a:hover{
+  color:lightskyblue;
+}
+
+.navbar-left{
+  color: beige;
+}
+
+.desc{
+  display: flex;
+}
+
+.seat button{
+  border:solid;
+  border-color:seagreen;
+  padding:5px;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+  transition: transform 0.3s ease;
+  cursor:pointer;
+}
+
+.seat button:hover{
+  background-color: seagreen;
+  color: seagreen;
+  }
+
+.seat button.selected{
+  background-color: yellow;
+  color: yellow;
+}
+
+.row{
+  padding:5px;
+  width:20px;
+  height:20px;
+}
+
+
+.seats{
+  display:grid;
+  grid-template-columns:400px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+  align-items: center;
+}
+
+.side-box{
+  border:solid;
+  margin-left: 80px;
+  font-size: 20px;
+  border-color: steelblue;
+  align-items: center;
+}
+
+.bookings{
+  display: flex;
+}
+
+.empty-seat button{
+  
+  background-color: black;
+  border-color: white;
+  margin:0px;
+  border-width:0px;
+  visibility: hidden;
+}
+
+  .footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding:0.1px;
+    margin-top:8px;
+    border-color: white;
+  }
+
+  .footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    font-size: 30px;
+
+  }
+
+  .side-box button{
+    font-size:25px ;
+    justify-content: center;
+    
+    margin: 10px;
+    width:90%;
+    font-weight: bold; 
+    padding:20px;
+    border:none;
+    background-color: cyan;
+  }
+
+  .chosen-seat button{
+  border:solid;
+  border-color:green;
+  padding:5px;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+  transition: transform 0.3s ease;
+  cursor:pointer;
+  background-color: green;
+  color: green;
+}
+
+ .side-text h1{
+  color:lightcyan;
+ }
+ .side-text h2{
+  color:lightslategray;
+ }
+
+ .img1 img{
+  padding:10px;
+ }

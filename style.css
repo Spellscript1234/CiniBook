@@ -1,0 +1,196 @@
+body{
+  background-color:black;
+}
+.navbar{
+  display:flex;
+  padding:5px;
+  font-size: 50px;
+  border:solid;
+  border-color: midnightblue;
+  background-color:darkslateblue;
+  height:80px;
+  justify-content: space-between;
+  margin-top:0;
+  border-width: 5px;
+  
+
+}
+
+.navbar-right ul{
+  display: flex;
+  color: azure;
+  gap:30px;
+  list-style-type: none;
+ overflow: hidden;
+  margin:0px;
+  text-decoration: none;
+  justify-content:right;
+}
+
+.navbar-right a{
+  color:azure;
+  text-decoration: none;
+}
+
+.navbar-right a:hover{
+  color:aquamarine;
+}
+
+.navbar-left{
+  color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 img{
+  border: solid;
+  border-color: cyan;
+  margin:30px;
+  padding:5px;
+  border-width:3px;
+  transition: transform 0.3s ease;
+}
+
+.img1 img:hover{
+  transform:scale(1.1);
+  cursor:pointer;
+  border-color: white;
+}
+
+.img1 img a:hover{
+  width: 110%;
+  height:110%;
+}
+
+.central{
+  padding-top:20px;
+  padding-left:30px;
+  display: flex;
+  
+}
+
+.hr{
+  height: 10px;
+  background-color: black;
+  border: none;
+}
+
+.section{
+  display:flex;
+}
+
+.coming-soon{
+  margin: 5px;
+  border:solid;
+  padding:5px;
+  border-color: azure;
+  justify-content: center;
+  color:azure;
+}
+
+.offers{
+  margin: 5px;
+  border:solid;
+  padding:5px;
+  border-color: whitesmoke;
+  color:azure;
+}
+
+.coming-soon-items ul{
+  list-style: none;
+  display: flex;
+  color:azure;
+  
+  }
+
+  .items{
+     margin: 5px;
+  border:solid;
+  padding:5px; 
+  color:white;
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding:0px;
+  }
+
+  .footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    font-size: 30px;
+  }
+
+  .central-text ul{
+    display:flex;
+    list-style: none;
+    gap:180px;
+    font-size: 40px;
+    padding-left: 80px;
+  }
+
+.book-now ul{
+  list-style: none;
+  display:flex;
+  gap:200px;
+  padding-left: 160px;
+}
+
+.book-now-buttons button {
+  border-radius: 10%;
+  font-size: 40px;
+  border-width:10px;
+  padding: 5px;
+  margin-top: 10px;;
+}
+
+.book-now-buttons button a{
+  text-decoration: none;
+  color: black;
+}
+
+.book-now-buttons button a:hover{
+  color:grey;
+  font-size: 105%;
+} 
+
+.offers ul {
+  display: flex;
+  list-style: none;
+  gap:5px;
+  color:whitesmoke;
+}
+
+.offer-box{
+  border:solid;
+  padding:5px;
+}
+
+.mov-card{
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  color:whitesmoke ;
+}
+
+.sub{
+  font-size: 20px;
+}
+@media (max-width: 768px){
+.central{
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-right{
+  flex-direction: column;
+  align-items: center;
+}
+}
+
