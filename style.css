@@ -192,5 +192,13 @@ body{
   flex-direction: column;
   align-items: center;
 }
+  .navbar{
+  flex-direction: column;
 }
+
+.section{
+  flex-direction: column;
+}
+}
+
 
