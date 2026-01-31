@@ -193,12 +193,16 @@ body{
   align-items: center;
 }
   .navbar{
+.navbar{
   flex-direction: column;
+  align-items: center;
 }
 
 .section{
   flex-direction: column;
+  align-items: center;
 }
 }
+
 
 
