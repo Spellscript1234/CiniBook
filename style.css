@@ -212,6 +212,7 @@ body {
   .central{
     display: flex;
   flex-direction: column;
+    flex-wrap:wrap;
   }
 
   .navbar-right ul{
@@ -233,7 +234,7 @@ body {
 
   .section{
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
   }
 
   .coming-soon-items ul{
