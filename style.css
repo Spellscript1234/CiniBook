@@ -153,7 +153,6 @@ body {
 
 .book-now-buttons button {
   border-radius: 10%;
-  border-width:10px;
   padding: 5px;
   margin-top: 10px;;
 }
@@ -161,7 +160,7 @@ body {
 .book-now-buttons button a{
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Viga', sans-serif;
 }
 
@@ -173,8 +172,9 @@ body {
 .offers ul {
   display: flex;
   list-style: none;
-  gap:5px;
+  gap: 20px;
   color:whitesmoke;
+  justify-content:center;
 }
 
 .offer-box{
@@ -208,11 +208,19 @@ body {
 .sub{
   font-size: 20px;
 }
+
+.trailer video{
+  width:100%;
+  height:70vh;
+}
+
+.central{
+  font-size: 28px;
+}
 @media screen and (width<=768px){
   .central{
     display: flex;
   flex-direction: column;
-    flex-wrap:wrap;
   }
 
   .navbar-right ul{
@@ -234,7 +242,7 @@ body {
 
   .section{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: wrap;
   }
 
   .coming-soon-items ul{
