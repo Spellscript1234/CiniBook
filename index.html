@@ -23,14 +23,15 @@
         <ul>
         <li><a href="#" >Home</a></li>
         <li><a href="#">Movies</a></li>
-        <li><a href="bookings.html">Bookings</a></li>
+        <li><a href="#">Bookings</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contacts</a></li>
         </ul>
       </div>
     </div>
+    <div class="trailer"><video id="trailer" src="trailer1.mp4" alt="Dhurandhar"controls></video></div>
     <div class="central">
-      SCIENCE-FICTION:
+      PLAYING NOW
       <div class="genre">
           <div class="mov-card">
             <div class="img1">
@@ -82,7 +83,40 @@
             </div>
         </div>
       </div>
+      COMING SOON
+      <div class="genre">
+        <div class="mov-card">
+          <div class="img1">
+            <img src="cmg-1.jpeg" alt="Movie-1" >
+          </div>
+          DHURANDHAR-THE REVENGE<br>
+          <div class="book-now-buttons">
+            <a href="#"><button onclick="changeVideo('trailer1.mp4')">SEE TRAILER</button></a>
+          </div>
+        </div>
+
+        <div class="mov-card">
+          <div class="img1">
+            <img src="cmg-2.jpeg" alt="Movie-1" >
+          </div>
+          KERALA FILES- PART-2<br>
+          <div class="book-now-buttons">
+            <a href="#"><button onclick="changeVideo('trailer2.mp4')">SEE TRAILER</button></a>
+          </div>
+        </div>
+
+        <div class="mov-card">
+          <div class="img1">
+            <img src="cmg-3.jpeg" alt="Movie-1" >
+          </div>
+          JANANAYAGAN<br>
+          <div class="book-now-buttons">
+            <a href="#"><button onclick="changeVideo('trailer3.mp4')">SEE TRAILER</button></a>
+          </div>
+        </div>
+
        
+      </div> 
     </div>
     
     
@@ -92,17 +126,7 @@
    </ul>
     <hr>
     <div class="section">
-      <div class="coming-soon">
-        COMING SOON
-        <div class="coming-soon-items">
-          <ul>
-            <div class="items"><li>DHURANDHAR-2</li></div>
-            <div class="items"><li>JANANAYAGAN</li></div>
-            <div class="items"><li>APPOLO-30</li></div>
-          
-          </ul>
-        </div>
-      </div>
+      
       <div class="offers">
         OFFERS
         <ul>
@@ -121,6 +145,11 @@
         <li>Terms and conditions</li>
       </ul>
     </div>
-    
+    <script>
+    function changeVideo(fileName) {
+      let video = document.getElementById('trailer');
+      video.src = fileName;
+    }
+  </script>
   </body>
 </html>
